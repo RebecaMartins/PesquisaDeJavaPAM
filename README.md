@@ -12,9 +12,9 @@ Por exemplo:
 ClasseConta acao = new ClasseConta(), cria um objeto de classe ClasseConta e a variável acao contém a tal referência a esse objeto ClasseConta, onde poderá mostrar quais são todos os seus métodos e atributos da classe (todos os dados que se encontram dentro desse atributo/classe). 
 
 OBS:
-> As variáveis de tipos por algum valor não se referem a objetos, e não podem ser utilizadas para invocar métodos.
+ As variáveis de tipos por algum valor não se referem a objetos, e não podem ser utilizadas para invocar métodos.
 > Lembrando que as variáveis locais não são inicializadas por padrão (variáveis encontradas dentro dos métodos).
-> As variáveis de tipo primitivo não podem ser inicializadas com referência a algum objeto (não se aplicam a eles).
+ As variáveis de tipo primitivo não podem ser inicializadas com referência a algum objeto (não se aplicam a eles).
 
 
 OBJETOS - ARRAYS:
