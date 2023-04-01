@@ -21,8 +21,8 @@ OBJETOS - ARRAYS:
 Definição: Arrays ou matrizes são conhecidas pelo Java, que fazem parte do pacote java.util na coleção API do Java. Eles são objetos recipientes que contém um número fixos de valores de um único tipo. O comprimentos de um array é definido quando ele é criado, e depois que a criação é oficializada seu comprimento fica fixo. Cada item de um array é chamado elemento e cada elemento é acessado pelo número, chamado índice. A cada acesso de elemento sempre irá começar a numeração com 0.
 
 EX:
-3      41       28       79       7
-0       1        2        3       4
+>3      41       28       79       7
+>0       1        2        3       4
 
 - um array de 5 elementos.
 
@@ -73,10 +73,11 @@ Ex de inicialização do primeiro elemento:
 ARRAYS MULTIDIMENSIONAIS:
 Esse tipo de array é declarado como ele tendo duas dimensões e é usado para representar tabelas de valores que ficam agrupados em linhas e colunas.
 Os arrays bidimensionais precisam de dois índices para identificar um elemento em particular. Por exemplo, quando um array é identificado dessa forma “numero[indiceA][indiceB]”, a variável numero é o array, o indiceA é a linha e o indiceB é identificado como a coluna, fazendo uma identificação de cada elemento no array por número de linha e coluna (similar ao funcionamento da formação das próprias matrizes).
+
 EX:
-a[m][n] - a[2][0]
-m - linha
-n - coluna
+>a[m][n] - a[2][0]
+>m - linha
+>n - coluna
 >>> no exemplo
 m = 2
 n = 0
