@@ -192,8 +192,74 @@ public class Exemplo {
 	
 }
 
+TIPOS PRIMITIVOS
+Uma varíavel do tipo primitivo armazena exatamente um valor do seu tipo declarado por vez. Se um outro valor for atribuido a uma dessas variáveis seu anterior é substituid.  Os tipos primitovs em java são: 
+
+NÚMEROS INTEIROS
+byte,short, int, long:
+
+byte: de -128 a 127;
+short: de -32.768 a 32.767;
+int: de 2 bilhões e mais alguns valores negativos a 2 bilhões e mais alguns valores positivos;
+long: vai de 9 e mais alguns valores negativos a 9 e mais alguns valores positivos
+
+NÚMEROS DE PONOT FLUTUANTE
+float, double: Float armazena valores númericos em ponto flutuante de precisão simples e o double de precisão dupla.
+
+As varáveis do tipo double 
+
+CARACTERES 
+char: Permite armazenar um caractere Unicode, que representa dados relacionado a texot, isso inclui letras, símbolos e caracteres especiais. Também pode recer valores tipo int. 
+
+BOOLEAN
+Armazena um valor logíco sendo True ou False (verdadeiro ou falso), ocupa apenas 1 bit de espaço.
+
+Declaração dos tipos primitivos->
+
+public class Tipos_Primitivos {
+	public static void main(String[] args) {
+	      byte tipoByte = 127;
+	      short tipoShort = 32767;
+	      char tipoChar = 'C';
+	      float tipoFloat = 2.6f;
+	      double tipoDouble = 3.59;
+	      int tipoInt = 2147483647;
+	      long tipoLong = 9223372036854775807L;
+	      boolean tipoBooleano = true;
+	      System.out.println("Valor do tipoByte = " + tipoByte);
+	      System.out.println("Valor do tipoShort = " + tipoShort);
+	      System.out.println("Valor do tipoChar = " + tipoChar); 
+	      System.out.println("Valor do tipoFloat = " + tipoFloat);
+	      System.out.println("Valor do tipoDouble = " + tipoDouble);
+	      System.out.println("Valor do tipoInt = " + tipoInt);
+	      System.out.println("Valor do tipoLong = " + tipoLong);
+	      System.out.println("Valor do tipoBooleano = " + tipoBooleano);
+	}
+}
+
+ESTRUTURAS DE REPTIÇÃO
+Conhecidas também como loops, são utilizadas para execturar repetidamente uma instrução enquanto uma determinada condição for feita. Suas principais estrturas são FOR e o WHILE
+
+FOR
+É uma estrutura em que seu ciclo será executado por um tempo ou condição pré-determinados em uma quantidade de vezes que for determinada. Quando utilizamos for precisamos de uma variável para auxiliar a controloar a quantiade de repetições que forem executadas.
+
+for (<variável de controle>, <análise da variável de controle>, <incremento da variável de controle>) {
+    // Código a ser executado
+}
+
+WHILE
+A condição para interroper a reptição do trecho dentro do while existe através de uma condição boleana.
+
+while (<condição>) {
+    // Trecho de código a ser repetido
+}
+
+A condição para interroper a reptição do trecho dentro do while existe através de uma condição boleana.
+
+
 
 REFERÊNCIAS:
 https://www.devmedia.com.br/tipos-de-dados-por-valor-e-por-referencia-em-java/25293
 https://www.devmedia.com.br/trabalhando-com-arrays-em-java/25530
 https://www.treinaweb.com.br/blog/estruturas-condicionais-e-estruturas-de-repeticao-em-java
+
