@@ -196,25 +196,22 @@ TIPOS PRIMITIVOS
 Uma varíavel do tipo primitivo armazena exatamente um valor do seu tipo declarado por vez. Se um outro valor for atribuido a uma dessas variáveis seu anterior é substituid.  Os tipos primitovs em java são: 
 
 NÚMEROS INTEIROS
-byte,short, int, long:
-
-byte: de -128 a 127;
-short: de -32.768 a 32.767;
-int: de 2 bilhões e mais alguns valores negativos a 2 bilhões e mais alguns valores positivos;
-long: vai de 9 e mais alguns valores negativos a 9 e mais alguns valores positivos
+-Byte: É a base da programação e o tipo mais simples do java (utilizado em situações específicas), de -128 a 127;
+-Shot: É tipo de dado que armazena números inteiros de 16 bits, de  -32.768 a 32.767;
+-Int: Só recebe valores inteiros, a declaração é do tipo obrigatória, vai de 2 bilhões e mais alguns valores negativos a 2 bilhões e mais alguns valores positivos;
+-Long: Representa apenas valores inteiros e é capaz de armazenar 64 bits, vai de -9.223.372.036.854.775.808L e 9.223.372.036.854.775.808L.
 
 NÚMEROS DE PONOT FLUTUANTE
-float, double: Float armazena valores númericos em ponto flutuante de precisão simples e o double de precisão dupla.
-
-As varáveis do tipo double 
+-Float: Recebe valores númericos em ponto flutuante com precisão simples, de 6 ou 7 digitos, vai de 1.401298464324817e-45f até 3.402823476638528860e+38f.
+-Double: Recebe valores númericos em ponto flutuante com precisão dupla, fornecendo 15 dígitos. 
 
 CARACTERES 
-char: Permite armazenar um caractere Unicode, que representa dados relacionado a texot, isso inclui letras, símbolos e caracteres especiais. Também pode recer valores tipo int. 
+-Char: Permite armazenar um caractere Unicode, que representa dados relacionado a texot, isso inclui letras, símbolos e caracteres especiais. Também pode recer valores tipo int.
 
 BOOLEAN
-Armazena um valor logíco sendo True ou False (verdadeiro ou falso), ocupa apenas 1 bit de espaço.
+Boolean: Armazena um valor logíco sendo True ou False (verdadeiro ou falso), ocupa apenas 1 bit de espaço.
 
-Declaração dos tipos primitivos->
+//Declaração dos tipos primitivos//
 
 public class Tipos_Primitivos {
 	public static void main(String[] args) {
@@ -238,23 +235,24 @@ public class Tipos_Primitivos {
 }
 
 ESTRUTURAS DE REPTIÇÃO
-Conhecidas também como loops, são utilizadas para execturar repetidamente uma instrução enquanto uma determinada condição for feita. Suas principais estrturas são FOR e o WHILE
+Conhecidas também como loops, são utilizadas para execturar repetidamente uma instrução enquanto uma determinada condição for feita. Suas principais estrturas são FOR e o WHILE:
 
 FOR
 É uma estrutura em que seu ciclo será executado por um tempo ou condição pré-determinados em uma quantidade de vezes que for determinada. Quando utilizamos for precisamos de uma variável para auxiliar a controloar a quantiade de repetições que forem executadas.
+
+WHILE
+A condição para interroper a reptição do trecho dentro do while existe através de uma condição boleana. 
+
+//Declaração do FOR & WHILE//
 
 for (<variável de controle>, <análise da variável de controle>, <incremento da variável de controle>) {
     // Código a ser executado
 }
 
-WHILE
-A condição para interroper a reptição do trecho dentro do while existe através de uma condição boleana.
 
 while (<condição>) {
     // Trecho de código a ser repetido
 }
-
-A condição para interroper a reptição do trecho dentro do while existe através de uma condição boleana.
 
 
 
